@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Galaga (Atari 7800)</title>
+<style>
+html, body { margin:0; padding:0; width:100%; height:100%; background:black; }
+#game { width:100vw; height:100vh; }
+</style>
+</head>
+<body>
+<div id="game"></div>
+<script>
+EJS_player        = "#game";
+EJS_core          = "atari7800";
+EJS_startOnLoaded = true;
+EJS_pathtodata    = "https://cdn.emulatorjs.org/stable/data/";
+EJS_gameUrl       = "https://cdn.jsdelivr.net/gh/AMoldyWaffle/Oryx-Ported-Games@main/Galaga%20(1987)%20(Atari).a78";
+</script>
+<script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+</body>
+</html>
